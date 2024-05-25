@@ -3,14 +3,14 @@
 import Link from "next/link";
 import React from "react";
 import { FaBug } from "react-icons/fa";
-import classNames from "classNames";
+import classNames from "classnames";
 
 import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const links = [
     { label: "Dashboard", href: "/" },
-    { label: "Issue", href: "/issue" },
+    { label: "Issue", href: "/issues" },
   ];
   const currentPath = usePathname();
   return (
