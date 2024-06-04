@@ -5,6 +5,7 @@ import "@radix-ui/themes/styles.css";
 import { Theme, ThemePanel } from '@radix-ui/themes';
 import NavBar from "./NavBar";
 import "easymde/dist/easymde.min.css";
+import QueryProvider from "./components/QueryProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,10 +23,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Theme>
-          <NavBar />
+          <QueryProvider>
+            <NavBar />
 
-          <main className="p-5" > {children}</main>
-          {/* <ThemePanel /> */}
+            <main className="p-5"> {children}</main>
+            {/* <ThemePanel /> */}
+          </QueryProvider>
         </Theme>
       </body>
     </html>

@@ -1,0 +1,48 @@
+{
+   "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "High quality wireless headphones with noise cancellation",
+      "price": 99.99,
+      "category": "Electronics",
+      "stock": 30,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smartphone Stand",
+      "description": "Adjustable smartphone stand for desk use",
+      "price": 19.99,
+      "category": "Accessories",
+      "stock": 100,
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with deep bass",
+      "price": 49.99,
+      "category": "Audio",
+      "stock": 50,
+      "rating": 4.7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
